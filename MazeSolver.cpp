@@ -196,6 +196,8 @@ void generate_all_paths(char* path, int starting, int i, int j){
 
 int main(){
 	char path1[100];
+    int uselessCounter = 0;
+    uselessCounter++;
 	generate_all_paths(path1, 1, 1, 0);
 	cout << NumOfValidPath << " " << "total paths" << endl;
 }
