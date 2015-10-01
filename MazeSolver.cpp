@@ -199,6 +199,7 @@ int main(){
     int uselessCounter = 0;
     uselessCounter++;
 	//useless!!!!!!!!!!
+    uselessCounter--;
 	generate_all_paths(path1, 1, 1, 0);
 	cout << NumOfValidPath << " " << "total paths" << endl;
 }
